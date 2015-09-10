@@ -7,7 +7,7 @@ import xml.etree.cElementTree as ET
 
 parser = OptionParser()
 parser.add_option('-a', '--append', dest='inxml', action='store',
-                  help='filename to append to')
+                  help='existing filename (e.g. Sources.xml) to append elements to')
 parser.add_option('-d', '--debug', dest='debug', action='store_true', 
                   default=False, 
                   help='debug (useful for broken .bib entries)')
