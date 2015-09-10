@@ -14,7 +14,9 @@ simple usage:
 
 more advanced usage:
 
-    ~/bin/bibtex2word.py -i citations.bib -a "/Users/me/Library/Application Support/Microsoft/Office/Sources.xml" -o /tmp/Sources.xml
+    ~/bin/bibtex2word.py -i citations.bib \
+       -a "/Users/me/Library/Application Support/Microsoft/Office/Sources.xml" \
+       -o /tmp/Sources.xml
 
 then copy `/tmp/Sources.xml` into place, restart Word, and poof.
 
