@@ -71,7 +71,7 @@ for key, entry in bibdata.entries.iteritems():
              ('b:URL', 'url'), ('b:BookTitle', 'booktitle'), ('b:ChapterNumber', 'chapter'),
              ('b:Edition', 'edition'), ('b:Institution', 'institution'), ('b:JournalName', 'journal'),
              ('b:Month', 'month'), ('b:Volume', 'number'), ('b:Pages', 'pages'), 
-             ('b:Type', 'type'))
+             ('b:Type', 'type'), ('b:URL', 'howpublished'))
     for msft, bibtex in xlate:
         source = add_element(source, msft, bibtex)
     
